@@ -20,7 +20,7 @@ def menor (lista):
 
 print("La lista es:",lista)
 print("El mayor de la lista es:",mayor(lista))
-print("El mayor de la lista es:",menor(lista))
+print("El menor de la lista es:",menor(lista))
 
 
 
