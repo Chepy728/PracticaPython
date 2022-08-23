@@ -3,7 +3,6 @@ import random
 caractercase = list("abcdefghijklmnopqrstuvwxyz")
 caracterupcase = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 simbolos1 = list("!@#$%^&*()_+")
-caracteres = list("abcdefghijklmnopqrstuvwxyz" + "ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "~!@#$%^&*()_+")
 
 def random_pass():
 
@@ -24,7 +23,7 @@ def random_pass():
         for i in range (simbolos):
                 password.append(random.choice(simbolos1))
 
-        password.append(random.choice(caracteres))
+        
         random.shuffle(password)
         
         print("".join(password))
