@@ -30,7 +30,7 @@ while True:
         print("Ganaste maraca, la tijera vence a la piedra")
     elif elijepc == "Tijera" and elijeusuario == "Piedra":
         print("Ganaste maraca, la piedra vence a la tijera")
-    if elijepc == "Papel" and elijeusuario == "piedra":
+    if elijepc == "Papel" and elijeusuario == "Piedra":
         print("Perdiste maraca, el papel vence a la piedra")
     elif elijepc == "Tijera" and elijeusuario == "Papel":
         print("Perdiste maraca, la tijera vence a la piedra")
